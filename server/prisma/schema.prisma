@@ -41,3 +41,4 @@ model lineItems {
   order     order   @relation(fields: [orderId], references: [id])
   product   product @relation(fields: [productId], references: [id])
 }
+
